@@ -1,20 +1,28 @@
 #include <stdio.h>
 
-int main()
+void the_equation()
 {
 	int a;
 	int b;
-	int c;
+	
+	scanf("%d%d", &a, &b);
 
-	scanf("%d%d%d", &a, &b, &c);
-
-	if ((a + b > c) && (a + c > b) && (b + c > a))
+	if (a == 0 && b == 0)
 	{
-		printf("YES\n");
+		printf("INF\n");
 	}
-	else
+	else if (a == 0)
 	{
 		printf("NO\n");
 	}
+	else
+	{
+		printf("%d\n", -b / n);
+	}
+}
+
+int main()
+{
+	the_equation();
 	return 0;
 }
