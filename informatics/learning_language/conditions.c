@@ -42,13 +42,16 @@ void the_sign_of_the_number()
 
 	scanf("%d", &x);
 
-	if (x > 0) {
+	if (x > 0)
+	{
 		printf("1\n");
 	} 
-	else if (x < 0) {
+	else if (x < 0)
+	{
 		printf("-1\n");
 	}
-	else {
+	else
+	{
 		printf("0\n")
 	}
 }
@@ -61,13 +64,16 @@ void Which_of_the_numbers_is_bigger()
 
 	scanf("%d%d", &a, &b);
 
-	if (a > b) {
+	if (a > b) 
+	{
 		printf("1\n"); 
 	}
-	else if (b > a) {
+	else if (b > a) 
+	{
 		printf("2\n");
 	}
-	else {
+	else 
+	{
 		printf("0\n")
 	}
 }
@@ -82,10 +88,12 @@ void maximum_of_three()
 
 	scanf("%d%d%d", &a, &b, &c);
 
-	if (c > max) {
+	if (c > max) 
+	{
 		max = c;
 	}
-	else if (b > max) {
+	else if (b > max) 
+	{
 		max = b
 	}
 
@@ -93,23 +101,7 @@ void maximum_of_three()
 }
 
 // https://informatics.msk.ru/mod/statements/view.php?id=276&chapterid=260#1
-void the_equation()
-{
-	int a;
-	int b;
-// ax + b = 0
-	scanf("%d%d", &a, &b);
 
-	if (a == 0) and (b == 0) {
-		printf("INF\n");
-	}
-	else if (a == 0) and (b!=0) {
-		printf("NO\n");
-	}
-	else {
-		printf("%d\n", -b/n);
-	}
-}
 
 // https://informatics.msk.ru/mod/statements/view.php?id=276&chapterid=292#1
 void maximum_of_two_numbers()
@@ -119,10 +111,12 @@ void maximum_of_two_numbers()
 
 	scanf("%d%d", &a, &b);
 
-	if (a > b) {
+	if (a > b)
+	{
 		printf("%d\n", a);
 	}
-	else {
+	else 
+	{
 		printf("%d\n", b);
 	}
 }
@@ -130,11 +124,17 @@ void maximum_of_two_numbers()
 // https://informatics.msk.ru/mod/statements/view.php?id=276&chapterid=2960#1
 void testing_system()
 {
-
 	int student;
 	int system;
 
 	scanf("%d%d", &student, &system);
 
-	// не понял, как делать
+	if ((student != 1 && system != 1) || (student == 1 && system == 1))
+	{
+		printf("YES\n");
+	}
+	else
+	{
+		printf("NO\n");
+	}
 }
