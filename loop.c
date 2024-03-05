@@ -32,3 +32,18 @@ void remains() {
         }
     }
 }
+
+// https://informatics.msk.ru/mod/statements/view.php?id=280&chapterid=339#1
+void minimum_divisor()
+{
+	int x;
+	int i;
+
+	scanf("%d", &x);
+
+	for (i = 2; i <= x; i++) {
+    	if (x % i == 0) {
+            printf("%d\n", i);
+        }
+    }
+}
