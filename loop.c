@@ -15,3 +15,20 @@ void even_numbers()
 		}
 	}
 }
+
+// https://informatics.msk.ru/mod/statements/view.php?id=280&chapterid=334#1
+void remains() {
+	int a;
+	int b;
+	int c;
+	int d;
+	int i;
+
+    scanf("%d%d%d%d", &a, &b, &c, &d);
+
+    for (i = a; i <= b; i++) {
+        if (i % d == c) {
+            printf("%d ", i);
+        }
+    }
+}
