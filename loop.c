@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// https://informatics.msk.ru/mod/statements/view.php?id=280#1
 void even_numbers()
 {
 	int a;
