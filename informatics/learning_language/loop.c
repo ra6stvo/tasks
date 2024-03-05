@@ -9,15 +9,18 @@ void even_numbers()
 
 	scanf("%d%d", &a, &b);
 
-	for (i = a; i <= b; i++) {
-		if (i % 2 == 0) {
+	for (i = a; i <= b; i++)
+	{
+		if (i % 2 == 0)
+		{
 			printf("%d ", i);
 		}
 	}
 }
 
 // https://informatics.msk.ru/mod/statements/view.php?id=280&chapterid=334#1
-void remains() {
+void remains()
+{
 	int a;
 	int b;
 	int c;
@@ -26,8 +29,10 @@ void remains() {
 
     scanf("%d%d%d%d", &a, &b, &c, &d);
 
-    for (i = a; i <= b; i++) {
-        if (i % d == c) {
+    for (i = a; i <= b; i++)
+	{
+        if (i % d == c)
+		{
             printf("%d ", i);
         }
     }
@@ -41,8 +46,10 @@ void minimum_divisor()
 
 	scanf("%d", &x);
 
-	for (i = 2; i <= x; i++) {
-    	if (x % i == 0) {
+	for (i = 2; i <= x; i++)
+	{
+    	if (x % i == 0)
+		{
             printf("%d\n", i);
         }
     }
