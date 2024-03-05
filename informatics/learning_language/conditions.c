@@ -101,7 +101,26 @@ void maximum_of_three()
 }
 
 // https://informatics.msk.ru/mod/statements/view.php?id=276&chapterid=260#1
+void the_equation()
+{
+	double a;
+	double b;
 
+	scanf("%lf %lf", &a, &b);
+
+	if (a == 0 && b == 0)
+	{
+		printf("INF\n");
+	}
+	else if (a == 0)
+	{
+		printf("NO\n");
+	}
+	else
+	{
+		printf("%lf\n", -b / a);
+	}
+}
 
 // https://informatics.msk.ru/mod/statements/view.php?id=276&chapterid=292#1
 void maximum_of_two_numbers()
