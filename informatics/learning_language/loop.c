@@ -55,11 +55,12 @@ void minimum_divisor()
     }
 }
 
-//https://informatics.msk.ru/mod/statements/view.php?id=280&chapterid=340#1
+// https://informatics.msk.ru/mod/statements/view.php?id=280&chapterid=340#1
 void dividers()
 {
-    int x;
-    scanf("%d", &x);
+	int x;
+    
+	scanf("%d", &x);
     for (int i = 1; i <= x; i++) 
 	{
         if (x % i == 0) 
@@ -72,29 +73,35 @@ void dividers()
 // https://informatics.msk.ru/mod/statements/view.php?id=280&chapterid=343#1
 void sum_of_the_numbers()
 {
-    int N, num, sum = 0;
+	int N;
+	int num;
+	int sum = 0;
+
     scanf("%d", &N);
-    for (int i = 0; i < N; i++) 
-    {
+    for (int i = 0; i < N; i++) {
         scanf("%d", &num);
         sum += num;
     }
+
     printf("%d\n", sum);
 }
 
 // https://informatics.msk.ru/mod/statements/view.php?id=280&chapterid=345#1
 void zeros()
 {
-    int N, num, count = 0;
-    scanf("%d", &N);
+    int N;
+    int num;
+    int count = 0;
+    
+	scanf("%d", &N);
     for (int i = 0; i < N; i++) 
-    {
+	{
         scanf("%d", &num);
         if (num == 0) 
-	{
+		{
             count++;
         }
-   }
+    }
 
     printf("%d\n", count);
 }
