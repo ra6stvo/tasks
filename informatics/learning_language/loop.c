@@ -81,3 +81,20 @@ void sum_of_the_numbers()
     }
     printf("%d\n", sum);
 }
+
+// https://informatics.msk.ru/mod/statements/view.php?id=280&chapterid=345#1
+void zeros()
+{
+    int N, num, count = 0;
+    scanf("%d", &N);
+    for (int i = 0; i < N; i++) 
+    {
+        scanf("%d", &num);
+        if (num == 0) 
+	{
+            count++;
+        }
+   }
+
+    printf("%d\n", count);
+}
