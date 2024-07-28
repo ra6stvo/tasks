@@ -27,3 +27,5 @@ int main()
 
     return 0;
 }
+
+// https://stepik.org/lesson/64560/step/9?unit=41410
