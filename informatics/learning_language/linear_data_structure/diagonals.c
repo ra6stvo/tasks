@@ -18,13 +18,13 @@ int main()
     int main_diagonal = 1;
     for (int i = 0; i < n; i++) 
     {
-        main_diagonal = main_diagonal * a[i][i];
+        main_diagonal *= a[i][i];
     }
 
     int sec_diagonal = 1;
     for (int i = 0; i < n; i++) 
     {
-        sec_diagonal = sec_diagonal * A[I][n - 1 - i];
+        sec_diagonal *= a[i][n - 1 - i];
     }
 
    
@@ -40,3 +40,5 @@ int main()
 
     return 0;
 }
+
+// https://stepik.org/lesson/64657/step/6?unit=41549
