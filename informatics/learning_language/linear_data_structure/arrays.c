@@ -21,3 +21,5 @@ int main()
 
     return 0;
 }
+
+// https://metanit.com/c/practice/5.php ЗАДАНИЕ 3
